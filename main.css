@@ -1,0 +1,153 @@
+body {
+  backgroud-color: white;
+  margin:0;
+  padding: 0;
+  font-family: 'Arial', 'Liberation Sans', 'Helvetica Neue', sans-serif;
+  font-size: 13px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #002e3b;
+}
+
+a:focus {
+  text-decoration: none;
+  color: red;
+  border: 1px solid red;
+}
+
+header > h1 {
+  margin: 0;
+  margin-left: 20%;
+  display: block;
+  max-width: 320px;
+  font-size: 26px;
+  color: bisque;
+}
+
+header {
+  background-color: #5F5F5F;
+  min-height: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main {
+  min-height: 600px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  background-color: #002e3b;
+  height: 50px;
+  line-height: 45px;
+  text-align: center;
+  font-family: Arial,Helvetica;
+
+}
+
+nav > ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+nav > ul > li {
+  background-color: #002e3b;
+  display: inline-block;
+  height: 100%;
+}
+
+nav > ul > li:hover,
+nav > ul > li:focus {
+
+}
+
+nav > ul > li > a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  height: 100%;
+  display: inline-block;
+  margin-left:   4px;
+  padding-left:  4px;
+  margin-right:  4px;
+  padding-right: 4px;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:focus  {
+  color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #01607a;
+  cursor: pointer;
+  transition: background-color 300ms linear;
+}
+
+nav > ul > li > a.selected {
+    background-color: #2a7caf;
+}
+
+footer{
+  min-height: 50px;
+  background-color: white;
+  border-top: 1px solid gray;
+  padding-left: 10%;
+  padding-top: 40px;
+  font-size: 15px;
+}
+
+
+footer > p:first-of-type {
+  font-weight: bold;
+}
+
+#skip-to-conent {
+  display: block;
+  height: 0px;
+  font-size: 0px;
+}
+
+#skip-to-conent:hover,
+#skip-to-conent:focus {
+  display: block;
+  height: 0px;
+  font-size: 0px;
+  border: none;
+}
+
+section.quick-links {
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 10px;
+  width: 30%;
+  float: right;
+  text-align:left;
+}
+
+section.quick-links > ul,
+section.quick-links > ul > li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+main > section {
+  display: inline-block;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+main > section.intro {
+  width: 65%;
+}
