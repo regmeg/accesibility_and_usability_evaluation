@@ -153,14 +153,19 @@ main > section.intro {
   width: 65%;
 }
 
-main > section.intro > img {
+main > section.evaluation {
+  width: 90%;
+}
+
+main > section > img {
  width: 99%;
 }
 
 @media screen and (max-width: 690px)  {
 
   main > section.intro,
-  main > section.quick-links {
+  main > section.quick-links,
+  main > section.evaluation {
     padding-top: 8px;
     padding-bottom: 8px;
     display: block;
@@ -206,4 +211,47 @@ main > section.intro > img {
   footer > p {
     text-align: center;
   }
+}
+
+table  {
+  border-collapse:collapse;
+  border-spacing:0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table td{
+  font-size:14px;
+  padding:10px 5px;
+  border-style:solid;
+  border-width:1px;
+  overflow:hidden;
+  word-break:normal;
+}
+
+table th{
+  font-size:14px;
+  font-weight:bold;
+  padding:10px 5px;
+  border-style:solid;border-width:1px;
+  overflow:hidden;
+  word-break:normal;
+}
+
+table .tg-pfso{
+  color:#cb0000;
+  vertical-align:top;
+}
+table .tg-yw4l{
+  vertical-align:top;
+
+}
+table .tg-5ex6{
+  color:#009901;
+  vertical-align:top;
+}
+
+table .tg-mejs{
+  color:#fe0000;
+  vertical-align:top;
 }
