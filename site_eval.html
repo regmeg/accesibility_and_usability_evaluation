@@ -25,9 +25,24 @@
     <section class="evaluation" aria-labelledby="EvaluationHeading">
       <h2 id="EvaluationHeading">Evaluation of this Website</h2><a name="maincontent" id="maincontnet"></a>
       <p>This sections goes through accesibility and usability features that this website offers. Moreover it offers evaluation for this websites accesibility, usability, design to standards and cross compability</p>
-      <h3 id="slidewiki_accesibility">Accesibility and Usability Features</h3>
-      <h3 id="slidewiki_accesibility">SlideWiki Accesibility</h3>
-      <p>SlideWiki accesibilty have been evaluated using <a href="https://web2access.org.uk/platforms/website/versions/2/tests">Web2Access Framework</a>, which is based on <a href="https://www.w3.org/TR/WCAG20/">WCAG 2.0 Guidlines</a>. The testing results can be seen in the table below.</p>
+      <h3>Accesibility and Usability Features</h3>
+      <h4>"Skip to main content" link</h4>
+      <p>This website offers a hidden "Skip to main content" link on the very top of the page, as seen in the image below. It is intended to be used by screen reader users in order to skip the navigation menu.</p>
+      <img src="images/skip_to_content.png" alt="This image shows the location 'skip to main content' link on the very top fo the page"/>
+      <h4>Selection Focus</h4>
+      <p>All navigational menu and link items have distinct focus graphics, so that tabbing users don't get lost, as seen in the images below</p>
+      <img src="images/menu_focus.png" alt="This image shows the graphic of focused menu item, whic is distnict from the selected and unselected one. "/>
+      <img src="images/link_focus.png" style="border: solid 1px gray" alt="This image shows the graphic of focused link item, whic is distnict from the unselected one. "/>
+      <h4>Usage of aria-labels</h4>
+      <p>Aria labels help the assistive technology such as screen readers to read extra information about the region of the page that users enters. Those have been used throughout different sections of the page as seen in the next image.</p>
+      <img src="images/aria_label.png" alt="This image shows HTML code, where 'aria-labelledby' attribute has been used within a section in order to label it accordingly to the heading element used within that section."/>
+      <h4>Responsive Design</h4>
+      <p>This website has been desinged with the responsiveness in mind. The images below show this website rendered in an Android Browser.</p>
+        <img src="images/home_droid.png" class="droid-img" alt="This image shows the home section of the website rendered in Android Browser."/>
+        <img src="images/skype_droid.png" class="droid-img" alt="This image shows the skype evaluation section of the website rendered in Android Browser."/>
+        <img src="images/gmail_droid.png" class="droid-img" alt="This image shows the gmail evaluation section of the website rendered in Android Browser."/>
+      <h3>Site's Accesibility</h3>
+      <p>Websites accesibilty has been evaluated using <a href="https://web2access.org.uk/platforms/website/versions/2/tests">Web2Access Framework</a>, which is based on <a href="https://www.w3.org/TR/WCAG20/">WCAG 2.0 Guidlines</a>. Due to site being purely informational and non functinal, it is fairly easy to score 100% in all the tests. This site has been throughoulty tested with the WebAim extension to ensure accesible HTML. As well as NVDA was used to listen to the tabbing and keyboard responses on the website. The testing results can be seen in the table below.</p>
       <table>
         <tr>
           <th>Test #</th>
@@ -37,17 +52,17 @@
         <tr>
           <td class="tg-gray">1</td>
           <td class="tg-gray">Login, Signup and Other Forms</td>
-          <td class="tg-red">33%</td>
+          <td class="tg-green">100%</td>
         </tr>
         <tr>
           <td class="tg-gray">2</td>
           <td class="tg-gray">Image ALT Attributes and Text Alternative</td>
-          <td class="tg-green">67%</td>
+          <td class="tg-green">100%</td>
         </tr>
         <tr>
           <td class="tg-gray">3</td>
           <td class="tg-gray">Link Target Definitions</td>
-          <td class="tg-green">67%</td>
+          <td class="tg-green">100%</td>
         </tr>
         <tr>
           <td class="tg-gray">4</td>
@@ -57,7 +72,7 @@
         <tr>
           <td class="tg-gray">5</td>
           <td class="tg-gray">Removal of Stylesheet</td>
-          <td class="tg-green">67%</td>
+          <td class="tg-green">100%</td>
         </tr>
         <tr>
           <td class="tg-gray">6</td>
@@ -77,27 +92,27 @@
         <tr>
           <td class="tg-gray">9</td>
           <td class="tg-gray">Tab Orderings Correct and Logical</td>
-          <td class="tg-red">33%</td>
+          <td class="tg-green">100%</td>
         </tr>
         <tr>
           <td class="tg-gray">10</td>
           <td class="tg-gray">Page Functionality with Keyboard and Touch Screen</td>
-          <td class="tg-red">0%</td>
+          <td class="tg-green">100%</td>
         </tr>
         <tr>
           <td class="tg-gray">11</td>
           <td class="tg-gray">Accessibility of Text Editors</td>
-          <td class="tg-red">33%</td>
+          <td class="tg-green">100%</td>
         </tr>
         <tr>
           <td class="tg-gray">12</td>
           <td class="tg-gray">Appropriate Feedback</td>
-          <td class="tg-green">67%</td>
+          <td class="tg-green">100%</td>
         </tr>
         <tr>
           <td class="tg-gray">13</td>
           <td class="tg-gray">Contrast and Colour Check</td>
-          <td class="tg-red">33%</td>
+          <td class="tg-green">100%</td>
         </tr>
         <tr>
           <td class="tg-gray">14</td>
@@ -107,14 +122,19 @@
         <tr>
           <td class="tg-gray">15</td>
           <td class="tg-gray">Text size, style, blinking elements and Readability</td>
-          <td class="tg-green">67%</td>
+          <td class="tg-green">100%</td>
         </tr>
       </table>
-      <p>Even though many of tests achieve high results, it can be concluded that SlideWiki is an inaccessible web application, due to
-        some of it’s critical functionality such slide editing being inaccessible. This web application has not been developed
-        with accessibility in mind.</p>
-      <h3 id="slidewiki_usability">SlideWiki Usability</h3>
-      <p>SlideWiki usability has been evaluated using <a href="http://www.userfocus.co.uk/resources/guidelines.html">UserFocus Web usability guidelines</a>. It can be concluded that application lacks attractive and clear homepage and some basics tips on how to use the mainfunctionality, which can easily put off new users. Plus, access to the content generated by other usersis vague. </p>
+      <h3>Site's Usability</h3>
+      <p>Site's usability has been evaluated using <a href="http://www.userfocus.co.uk/resources/guidelines.html">UserFocus Web usability guidelines</a>. It can be concluded that application lacks intuative and non verbose homepage.  The link of the webiste which consists of the student username and ECS deparment's host name is no claer and does not correspond to websites content. Overall site's map is lacking. Buttons and links don't show  that they have been clicked. There are no priting styles present for printing the site's content. There are no error ages present at the sites. Plus there is not any kind of support form or FAQs available.</p>
+      <h3>Site's HTML Validation</h3>
+      <p>The HTML validation idicates no errors and only 1 warning, which states that name attribute should not be used within an anchor, as seen in the image below.</p>
+      <img src="images/html_check.png" style="border: solid 1px gray" alt="This image shows the HTML validation results, where there is only one warning in regards with using the name attribute with an Anchor"/>
+      <h3>Site's CSS Validation</h3>
+      <p>The CSS validation indicates no errors at all in the code, as seen in the image below.</p>
+      <img src="images/css_check.png" style="border: solid 1px gray" alt="This image shows the CSS validation results, where there are not errors found at all "/>
+      <h3>Site's Cross Comapability</h3>
+      <img src="images/ubuntu_firefox.jpg" style="border: solid 1px gray" alt="This image shows this website rederned in Firefox on the Ubuntu OS."/>
     </section>
 
   </main>

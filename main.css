@@ -167,6 +167,13 @@ main > section > img.logo {
  padding-right: 5px;
 }
 
+main > section > img.droid-img {
+ width: 33%;
+ display: inline-block;
+ float: left;
+ padding-bottom: 7px;
+}
+
 @media screen and (max-width: 690px)  {
 
   main > section.intro,
@@ -216,6 +223,10 @@ main > section > img.logo {
 
   footer > p {
     text-align: center;
+  }
+
+  main > section > img.droid-img {
+   width: 100%;
   }
 }
 
