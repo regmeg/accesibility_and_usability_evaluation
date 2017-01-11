@@ -161,6 +161,12 @@ main > section > img {
  width: 99%;
 }
 
+main > section > img.logo {
+ width: 15%;
+ float: left;
+ padding-right: 5px;
+}
+
 @media screen and (max-width: 690px)  {
 
   main > section.intro,
