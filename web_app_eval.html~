@@ -122,7 +122,7 @@
       <h2 id="GmailEvaluationHeading">Gmail Evaluation</h2>
       <p><a href="https://www.google.com/gmail/">Gmail</a> is a web email client application designed by Google.</p>
       <h3 id="gmail_accesibility">Gmail Accessibility</h3>
-      <p>Gmail accessibility has been evaluated using <a href="https://web2access.org.uk/platforms/website/versions/2/tests">Web2Access Framework</a>, which is based on <a href="https://www.w3.org/TR/WCAG20/">WCAG 2.0 Guidelines</a>. The testing results can be seen in the table below.</p>
+      <p>Gmail accesibilty has been evaluated using <a href="https://web2access.org.uk/platforms/website/versions/2/tests">Web2Access Framework</a>, which is based on <a href="https://www.w3.org/TR/WCAG20/">WCAG 2.0 Guidelines</a>. The testing results can be seen in the table below.</p>
       <table>
         <tr>
           <th>Test #</th>

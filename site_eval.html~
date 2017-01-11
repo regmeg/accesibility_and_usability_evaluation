@@ -42,7 +42,7 @@
         <img src="images/skype_droid.png" class="droid-img" alt="This image shows the skype evaluation section of the website rendered in Android Browser."/>
         <img src="images/gmail_droid.png" class="droid-img" alt="This image shows the gmail evaluation section of the website rendered in Android Browser."/>
       <h3>Site's Accessibility</h3>
-      <p>Websites accessibility has been evaluated using <a href="https://web2access.org.uk/platforms/website/versions/2/tests">Web2Access Framework</a>, which is based on <a href="https://www.w3.org/TR/WCAG20/">WCAG 2.0 Guidelines</a>. Due to site being purely informational and non functional, it is fairly easy to score 100% in all the tests. This site has been thoroughly tested with the WebAim extension to ensure accessible HTML. As well as NVDA was used to listen to the tabbing and keyboard responses on the website. The testing results can be seen in the table below.</p>
+      <p>Websites accessibility has been evaluated using <a href="https://web2access.org.uk/platforms/website/versions/2/tests">Web2Access Framework</a>, which is based on <a href="https://www.w3.org/TR/WCAG20/">WCAG 2.0 Guidlines</a>. Due to site being purely informational and non functional, it is fairly easy to score 100% in all the tests. This site has been thoroughly tested with the WebAim extension to ensure accessible HTML. As well as NVDA was used to listen to the tabbing and keyboard responses on the website. The testing results can be seen in the table below.</p>
       <table>
         <tr>
           <th>Test #</th>
