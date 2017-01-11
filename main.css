@@ -238,20 +238,16 @@ table th{
   word-break:normal;
 }
 
-table .tg-pfso{
-  color:#cb0000;
-  vertical-align:top;
-}
-table .tg-yw4l{
+table .tg-gray{
   vertical-align:top;
 
 }
-table .tg-5ex6{
+table .tg-green{
   color:green;
   vertical-align:top;
 }
 
-table .tg-mejs{
+table .tg-red{
   color:red;
   vertical-align:top;
 }
