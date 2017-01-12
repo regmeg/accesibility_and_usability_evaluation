@@ -21,7 +21,7 @@ a:focus {
 header > h1 {
   margin: 0;
   margin-left: 20%;
-  display: block;
+  display: inline-block;
   max-width: 320px;
   font-size: 26px;
   color: bisque;
@@ -174,7 +174,32 @@ main > section > img.droid-img {
  padding-bottom: 7px;
 }
 
+div.burger {
+  display: none;
+  height: 46px;
+  width: 46px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 4px;
+  cursor: pointer;
+  right: 12px;
+  top: 40px;
+  position: absolute;
+}
+
+div.burger > hr {
+  margin-top: 20%;
+}
+
 @media screen and (max-width: 690px)  {
+
+  div.burger {
+    display: inline-block;
+  }
+
+  nav {
+    display: none;
+  }
 
   main > section.intro,
   main > section.quick-links,
@@ -206,7 +231,8 @@ main > section > img.droid-img {
   header > h1 {
     margin-right: auto;
     margin-left: auto;
-    max-width: 320px;
+    max-width: 240px;
+    margin-left: 10%
   }
 
   main {
