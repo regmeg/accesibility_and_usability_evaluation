@@ -8,6 +8,7 @@
           let _this = this;
           let burger = document.querySelector('div.burger');
           let nav = document.querySelector('nav');
+          let scrollbarWidth = (window.outerWidth - window.innerWidth);
           let toogle_state = false;
           let toggle_the_menu =  function () {
                         console.log("togglin")
@@ -18,7 +19,6 @@
                     }
           };
           let  display_the_menu = function () {
-
                     nav.style.display = "block";
                     burger.style.backgroundColor = "white";
                     toogle_state = true;
@@ -28,9 +28,19 @@
                     burger.style.backgroundColor = "";
                     toogle_state = false;
           };
+          let respond_to_resize = function () {
+            if (window.innerWidth <= 690) {
+                if(!toogle_state) nav.style.display = "none";
+            } else {
+                nav.style.display = "block";
+                burger.style.backgroundColor = "";
+                toogle_state = false;
+
+            }
+          }
           let init = function() {
-            console.log("init")
             burger.addEventListener("click", toggle_the_menu);
+            window.addEventListener("resize", respond_to_resize);
           };
           return init;
         },
